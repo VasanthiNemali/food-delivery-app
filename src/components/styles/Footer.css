@@ -1,0 +1,23 @@
+.footer-container{
+    display:flex;
+    justify-content: space-between;
+}
+    
+
+.footer-content1 h1{
+    font-style: italic;
+    color: brown;
+}
+.footer-content1 li{
+    list-style-type:disc
+}
+.social-container {
+
+    padding: 25px 50px;
+  }
+  a.youtube, a.twitter-icon, a.instagram-icon{
+    margin: 0 1rem;
+    transition: transform 250ms;
+float:right;
+  }
+  

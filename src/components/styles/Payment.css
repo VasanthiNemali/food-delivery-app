@@ -1,0 +1,23 @@
+.payment-list {
+    width: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px burlywood;
+    border-radius: 10px;
+  }
+  
+  .payment-list a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .payment-list a:hover {
+    background-color: #ccc;
+  }
+  
+  

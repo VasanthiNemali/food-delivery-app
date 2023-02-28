@@ -1,0 +1,35 @@
+.sign-up-form{
+    width: 400px;
+    height: 600px;
+    box-shadow: 5px 10px 8px #888888;
+    background:whitesmoke;
+    padding: 20px;
+    margin: 4% auto 0;
+    text-align: center;
+    border-radius: 5px;
+}
+.input-feild{
+    
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #999;
+    outline: none;
+    width: 90%;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; 
+}
+.btn{
+    padding: 15px 15px;
+    color: wheat;
+    
+    background-color: darkcyan;
+    font-size: 15px;
+    border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover{
+    background-color:cadetblue;
+}

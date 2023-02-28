@@ -1,0 +1,63 @@
+[  
+    {  
+        "name":"Cheesecake Factory",
+        "cuisine":"American",
+        "id":1,
+        "image":"https://cdn-icons-png.flaticon.com/512/5223/5223909.png"
+    },
+    {  
+        "name":"Shokolaat",
+        "cuisine":"American",
+        "id":2,
+        "image":"https://cdn-icons-png.flaticon.com/512/5223/5223909.png"
+    },
+    {  
+        "name":"Gordon Biersch",
+        "cuisine":"American",
+        "id":3,
+        "image":"https://cdn-icons-png.flaticon.com/512/5223/5223909.png"
+    },
+    {  
+        "name":"Crepevine",
+        "cuisine":"American",
+        "id":4,
+        "image":"https://cdn-icons-png.flaticon.com/512/5223/5223909.png"
+    },
+    {  
+        "name":"Creamery",
+        "cuisine":"American",
+        "id":5,
+        "image":"https://cdn-icons-png.flaticon.com/512/5223/5223909.png"
+    },
+    {  
+        "name":"Old Pro",
+        "cuisine":"American",
+        "id":6,
+        "image":"https://cdn-icons-png.flaticon.com/512/5223/5223909.png"
+    },
+    {  
+        "name":"Nola\"s",
+        "cuisine":"Cajun",
+        "id":7,
+        "image":"https://cdn-icons-png.flaticon.com/512/5223/5223909.png"
+    },
+    {  
+        "name":"House of Bagels",
+        "cuisine":"Bagels",
+        "id":8,
+        "image":"https://cdn-icons-png.flaticon.com/512/5223/5223909.png"
+    },
+    {  
+        "name":"The Prolific Oven",
+        "cuisine":"Sandwiches",
+        "id":9,
+        "image":"https://cdn-icons-png.flaticon.com/512/5223/5223909.png"
+    },
+    {  
+        "name":"La Strada",
+        "cuisine":"Italian",
+        "id":10,
+        "image":"https://cdn-icons-png.flaticon.com/512/5223/5223909.png"
+    }
+]
+    
