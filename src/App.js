@@ -1,23 +1,21 @@
+
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/pages/Header";
 import Home from "./components/pages/Home";
 import Footer from "./components/pages/Footer";
-// import { Provider } from "react-redux";
-// import store from "./store";
-// import Cart from "./components/pages/Cart";
-import { ContactUs } from "./components/pages/ContactUs";
 
-// import { Router } from "express";
-import Restaurants from "./components/pages/Restaurants";
+import Routing from './components/Routers/Router';
 
 function App() {
   return (
     <div>
-      {/* <Restaurants /> */}
-
-      <Header />
-      <Home />
-      <Footer />
+   <Routing/>
+   {/* <Footer/> */}
+      
+      
+      
+      
     </div>
   );
 }

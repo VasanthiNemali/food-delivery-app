@@ -29,3 +29,6 @@
     padding: 100px 20px;
     background-color: antiquewhite;
 }
+.home-order-btn{
+    cursor: pointer;
+}

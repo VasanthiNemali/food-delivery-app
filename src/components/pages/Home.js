@@ -2,10 +2,20 @@ import React from 'react'
 import Homeimg4 from '../../images/Homeimg4.png'
 import '../styles/home.css'
 import Perks from '../../images/perks.png'
+import { useNavigate } from 'react-router-dom'
 
 import RestaurantIcon from '../../images/RestaurantIcon.png'
 
 function Home(){
+  const navigate=useNavigate();
+  const handleContact=(e)=>{
+    //e.preventDefaults();
+    navigate('/contactus')
+  }
+  const handleOrder=(e)=>{
+    //e.preventDefaults();
+    navigate('/orderpage')
+  }
   
   return (
     <div className='home-container'>
@@ -17,10 +27,10 @@ function Home(){
     <center>    <h1 style={{color:'#D6AA17'}}> Delivering Happiness</h1><h3>---Happy Eating---</h3>
 </center><hr/>
 <div className='home-button-container'>
-<button className='home-order-btn'>Order Now  </button>
+<button onClick={handleOrder} className='home-order-btn'>Order Now  </button>
 
 
-<button className='home-order-btn' >Contact Us  </button>
+<button onClick={handleContact} className='home-order-btn' >Contact Us  </button>
 
 </div>
 </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import '../styles/Header.css';
-import Logo3 from '../images/Logo3.png'
+import Logo3 from '../../images/Logo3.png'
 function Header(){
     return(
         <div className='header'>

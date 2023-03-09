@@ -1,48 +1,37 @@
-import React from 'react';
-import {
-Nav,
-NavLink,
-Bars,
-NavMenu,
-NavBtn,
-NavBtnLink,
-} from './NavbarElements';
+import React from "react";
+import { Link } from "react-router-dom";
 
-const Navbar = () => {
-return (
-	<>
-	<Nav>
-		<Bars />
+import "../styles/NavBar.css";
+import Logo3 from "../../images/Logo3.png";
+import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 
-		<NavMenu>
-		<NavLink to='/home' activeStyle>
-			Home
-		</NavLink>
-		<NavLink to='/restaurants' activeStyle>
-			Restaurents
-		</NavLink>
-		<NavLink to='/restaurants/list' activeStyle>
-			List
-		</NavLink>
-		<NavLink to='/cart' activeStyle>
-            Cart
-		</NavLink>
-		<NavLink to='/payment' activeStyle>
-			Payments
-		</NavLink>
-		
-		<NavLink to='/sign-up' activeStyle>
-			Sign Up
-		</NavLink>
-		{/* Second Nav */}
-		{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
-		</NavMenu>
-		<NavBtn>
-		<NavBtnLink to='/signin'>Sign In</NavBtnLink>
-		</NavBtn>
-	</Nav>
-	</>
-);
+const NavBar = () => {
+  return (
+    <div className="nav-header">
+      <img className="header-logo" src={Logo3} />
+
+      <Link to="/home">
+        <span className="header-option">Home</span>
+      </Link>
+      <Link to="/restaurants">
+        <span className="header-option">Restaurants</span>
+      </Link>
+
+      <Link to="/login">
+        <span className="header-option">Login</span>
+      </Link>
+      <Link to="/signup">
+        <span className="header-option">Sign Up</span>
+        
+      </Link>
+
+      <Link to="/cart">
+        <span className="header-option">Cart</span>
+        <AddShoppingCartIcon className="header-option" />
+        <span className="header-option">0</span>
+      </Link>
+    </div>
+  );
 };
 
-export default Navbar;
+export default NavBar;

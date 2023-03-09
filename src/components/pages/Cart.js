@@ -1,25 +1,24 @@
-import { disabled } from 'express/lib/application';
-import React from 'react';
+import React from "react";
+import '../styles/cart.css'
 
-import {useSelector,useDispatch} from "react-redux";
-import {addItem,deleteItem} from '../actions/cartActions'
+import { Link } from "react-router-dom";
 
-const Cart=()=> {
-  const state=useSelector((state)=>state);
-  const dispatch=useDispatch();
-  
-  
+const Cart = () => {
   return (
-    <div>
-      <h2>Num Of Items: {state.numOfItems}</h2><br/>
-      <button onClick={()=>{
-        dispatch(addItem())
-      }}
-        > Add Item</button>&nbsp;
-      <button  onClick={()=>{
-        dispatch(deleteItem())
-      }}>Delete Item</button>
+    <div className="cart-page">
+      <table>
+     
+          <tr>
+            <th>Image</th>
+            <th>Product Title</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Delete</th>
+          </tr>
+       
+      </table>
     </div>
-  )
-}
-export default Cart
+  );
+};
+
+export default Cart;
