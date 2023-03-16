@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate,Link } from "react-router-dom";
 import "../styles/signUp.css";
 
 
@@ -91,7 +91,8 @@ const SignUp = () => {
         </button>
         <hr />
         <p>
-          Do you already have account?<a href="#">Sign In</a>
+          Do you already have account?<Link to="/login">Sign In
+            </Link>
         </p>
       </form>
       <div></div>

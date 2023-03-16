@@ -1,7 +1,7 @@
 import { use } from 'express/lib/application';
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom';
-import '../styles/signUp.css'
+import { useNavigate,Link } from 'react-router-dom';
+import '../styles/Login.css'
 
 
 const Login = () => {
@@ -30,7 +30,7 @@ const Login = () => {
        
     }
   return (
-    <div className='sign-up-form'>
+    <div className='login-form'>
     
     <form >
         <label>Email:</label>
@@ -40,6 +40,11 @@ const Login = () => {
       <label>Password:</label>
       <input id='password' className='input-feild' type='password'placeholder='Enter your Password' value={password} onChange={(e)=>{setPassword(e.target.value)}}/>
       <button className='btn' type='submit' onClick={submitHandler}>Login</button>
+      <hr />
+        <p>
+          Not on Happliy Fresh yet?<Link to="/signup">Sign UP
+            </Link>
+        </p>
 </form>
 
     </div>

@@ -1,7 +1,7 @@
  import React from 'react'
 // import './Contact.css'
 
-export const ContactUs = () => {
+ const ContactUs = () => {
   return (
     <div className='contact-container'>
      
@@ -30,3 +30,4 @@ export const ContactUs = () => {
     </div>
   )
 }
+export default ContactUs

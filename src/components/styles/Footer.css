@@ -1,28 +1,25 @@
 .footer-head {
   background-color: rgb(204, 240, 241);
-  box-shadow: 0 -10px 20px -5px rgba(115,115,115,0.75),
-  10px 0 20px -5px rgba(115,115,115,0.75);
   display: flex;
-  
- 
- width: 100%;
- bottom: 0;
+  width: 100%;
+  bottom: 0;
 }
 .footer-logo-display {
+  margin-top: 20px;
   justify-content: center;
   align-items: center;
 }
 .box-2 {
   float: left;
-  padding-left: 30px;
+  padding-left: 50px;
 }
 .box-3 {
   float: right;
-  padding-left: 20px;
+  padding-left: 50px;
 }
 .box-4 {
   float: right;
-  padding-left: 150px;
+  padding-left: 200px;
 }
 
 .footer-content1 li {

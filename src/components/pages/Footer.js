@@ -1,64 +1,60 @@
-import React from 'react'
-import Homeimg4 from '../../images/Homeimg4.png'
-import '../styles/home.css'
-import Perks from '../../images/perks.png'
-import { useNavigate } from 'react-router-dom'
+import "../styles/Footer.css";
+import Logo3 from "../../images/Logo3.png";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
 
-import RestaurantIcon from '../../images/RestaurantIcon.png'
-
-function Home(){
-  const navigate=useNavigate();
-  const handleContact=(e)=>{
-    //e.preventDefaults();
-    navigate('/contactus')
-  }
-  const handleOrder=(e)=>{
-    //e.preventDefaults();
-    navigate('/orderpage')
-  }
-  
+const Footer=()=> {
   return (
-    <div className='home-container'>
-      <img className='home-img' src={Homeimg4}/> 
-     <div className='img-content'>
-       <h4>Easy Way To make An Order</h4>
+    <div className="footer-head">
+ 
+         
+              <div className="footer-logo-display">
+              <img className="header-logo" src={Logo3} />
+               
+              </div>
+           
+
+      <div className="box-2">
+
+      
      
-    <p>Best Service delivering the Flavours of Your Wish on time.</p>
-    <center>    <h1 style={{color:'#D6AA17'}}> Delivering Happiness</h1><h3>---Happy Eating---</h3>
-</center><hr/>
-<div className='home-button-container'>
-<button onClick={handleOrder} className='home-order-btn'>Order Now  </button>
+      <h5>Delivery time</h5>
+      <span>Monday - Friday</span>
+      <p>10:00am - 8:00pm</p>
 
-
-<button onClick={handleContact} className='home-order-btn' >Contact Us  </button>
-
-</div>
-</div>
-
-
-
-    
-    <div className='icon-container'>
-     <div className='icon-container1'>
-     <img className='icons' src={RestaurantIcon}></img>
-    <h2> Local favorites</h2>
-    <p>
+      
+      
+      </div>
    
-Satisfy any craving with delivery from popular neighborhood restaurants and chains. Reorder go-tos or find something new.
-    </p>
-     </div>
       
-    <img className='icons' src={Perks}></img>
-    <h2>Exclusive Perks</h2>
-    <p> 
-Discover more deals and restaurant rewards near you. Cash in on Perks and get $100s in savings.</p>
+      <div className="box-3">
+      <p>Location: Vindhu, Halsted Road, USA</p>
+      <span>Phone: 1234567890</span>
+      <span>Email: abc@gmail.com</span>
+      
+      </div>
+
+      <div className="box-4">
+      <h1>Why Happily Fresh?</h1>
+      <li>Fresh Food</li>
+      <li>Quality as </li>
      
-    
-    
-      
-    
+      </div>
+     
+      <div className="social-container">
+        <a className="youtube" href="https://www.facebook.com/">
+          <FacebookIcon />
+        </a>
+        <a className="twitter-icon" href="https://twitter.com/?lang=en">
+          <TwitterIcon />
+        </a>
+        <a className="instagram-icon" href="https://www.instagram.com/">
+          <InstagramIcon />
+        </a>
+      </div>
+     
     </div>
-    </div>
-  )
+  );
 }
-export default Home
+export default Footer;

@@ -9,6 +9,28 @@
     margin-right: 20px;
 
 }
+.features{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+   
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.features-option1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 80px;
+    align-items: center;
+    
+
+}
+.features-option1 span{
+    color: darkcyan;
+    font-weight: bold;
+}
+
 .icon-container{
    
     
@@ -17,9 +39,7 @@
     margin-top: 90px;
  
 }
-.icons-img{
 
-}
 .icons{
     width: 60px;
     height: 60px;

@@ -6,13 +6,13 @@ import Logo3 from '../../images/Logo3.png'
 function Header(){
     return(
         <div className='header'>
-             <img className='header-logo' src={Logo3}/>
+             {/* <img className='header-logo' src={Logo3}/> */}
             <div className='header-search'>
                 <input className='header-search-feild' input type='text'></input>
                 <SearchIcon className='search-icon'></SearchIcon>
 
             </div>
-            <div className='header-nav'>
+            {/* <div className='header-nav'>
             <div className='header-options'>
                 <span className='header-option2'>Restaurants</span>
             </div>
@@ -21,7 +21,7 @@ function Header(){
                 <span className='header-option2'>Sign In</span>
             </div>
             <div className='header-options'>
-                <span className='header-option2'>Sign Up</span>
+                <span className='header-option1'>Sign Up</span>
             </div>
             
            
@@ -33,7 +33,7 @@ function Header(){
 
             </div>
             
-            </div>
+            </div> */}
 
         </div>
     )

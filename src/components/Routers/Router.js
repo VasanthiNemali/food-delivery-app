@@ -4,11 +4,13 @@ import NavBar from '../Navbar/Navbar'
 import Cart from '../pages/Cart'
 import Login from "../pages/Login";
 import SignUp from "../pages/SignUp";
-import {ContactUs} from "../pages/ContactUs";
+import ContactUs from "../pages/ContactUs";
 import OrderNow from "../pages/OrderNow";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+
 const Routing = () => {
+ 
   return (
     <div>
 
@@ -25,6 +27,7 @@ const Routing = () => {
             <Route extac path="/ordernow" element={<OrderNow />}></Route>
           </Routes>
         </div>
+        
       </BrowserRouter>
 
 

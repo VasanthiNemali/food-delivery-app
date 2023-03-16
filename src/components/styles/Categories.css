@@ -1,0 +1,23 @@
+.image-txt-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+     margin-left: 300px;
+     margin-top: 90px;
+     cursor: pointer;
+     transition: 0.5s;
+    
+  
+
+  
+  }
+  .image-txt-container :hover{
+    transform: translateY(-15px);
+
+  }
+  .image-txt-container img{
+      width: 80px;
+      height: 80px;
+    padding-right: 100px;
+  }
